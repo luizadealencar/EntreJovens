@@ -41,6 +41,7 @@
 	  margin-top: 16px;
 		font-weight: bold;
 		color: white;
+		font-size: 20px;
 	}
 	
 	#btn {
@@ -56,6 +57,13 @@
 		font-weight: bold;
 		font-family: 'Courier New', Courier, monospace;
 		margin: 2px;
+	}
+
+	.mensagem{
+		margin-top: 16px;
+		font-weight: bold;
+		color: white;
+		font-size: 28px;
 	}
 }
 	
