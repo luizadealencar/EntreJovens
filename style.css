@@ -1,0 +1,61 @@
+@media screen and (min-width: 601px){
+	html, body {
+	  height: 100%;
+	}
+	
+	body {
+		font-family: 'Courier New', Courier, monospace;
+	  text-align: center;
+	  background-image: url('lamparina.jpg');
+	  background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
+		display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+		margin: 0;
+	}
+	
+	h1, .convite, button p{
+	  color: white;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	.convite, button p{
+		font-size: 2em;
+	}
+	
+	#versiculo {
+	  margin: 20px;
+	  font-size: 2.5em;
+	  font-style: italic;
+		font-weight: bold;
+		color: white;
+	}
+	
+	#data {
+	  margin-top: 16px;
+		font-weight: bold;
+		color: white;
+	}
+	
+	#btn {
+	  background-color: transparent;
+	  color: white;
+	  padding: 5px 10px;
+	  border: 2px solid white;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  font-weight: bold;
+	}
+	button p{
+		font-weight: bold;
+		font-family: 'Courier New', Courier, monospace;
+		margin: 2px;
+	}
+}
+	
