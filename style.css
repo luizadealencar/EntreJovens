@@ -23,6 +23,7 @@
 
 	h1{
 		font-size: 3em;
+		margin-bottom: 0;
 	}
 
 	.convite, button p{
@@ -30,18 +31,11 @@
 	}
 	
 	#versiculo {
-	  margin: 20px;
+	  margin: 20px 20px 0 20px;
 	  font-size: 2.5em;
 	  font-style: italic;
 		font-weight: bold;
 		color: white;
-	}
-	
-	#data {
-	  margin-top: 16px;
-		font-weight: bold;
-		color: white;
-		font-size: 20px;
 	}
 	
 	#btn {
@@ -52,6 +46,7 @@
 	  border-radius: 5px;
 	  cursor: pointer;
 	  font-weight: bold;
+		margin-bottom: 10px;
 	}
 	button p{
 		font-weight: bold;
@@ -59,11 +54,19 @@
 		margin: 2px;
 	}
 
-	.mensagem{
-		margin-top: 16px;
+	.ministerio{
 		font-weight: bold;
 		color: white;
-		font-size: 28px;
+  	font-size: 2em;
+		margin-top: 10px;
+	}
+
+	.mensagem{
+		display: flex;
+		margin-top: 0;
+		margin-bottom: 10px;
+		font-weight: bold;
+		color: white;
+		font-size: 2.5em;
 	}
 }
-	
