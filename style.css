@@ -30,6 +30,10 @@
 		font-size: 2em;
 	}
 	
+	.convite{
+		margin-bottom: 0;
+	}
+	
 	#versiculo {
 	  margin: 20px 20px 0 20px;
 	  font-size: 2.5em;
@@ -48,6 +52,7 @@
 	  font-weight: bold;
 		margin-bottom: 10px;
 	}
+	
 	button p{
 		font-weight: bold;
 		font-family: 'Courier New', Courier, monospace;
